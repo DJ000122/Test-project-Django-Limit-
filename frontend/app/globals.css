@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* MUI's CssBaseline owns page colors so the theme stays the single source of truth. */
